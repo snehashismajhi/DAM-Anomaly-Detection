@@ -8,4 +8,4 @@ Video anomaly detection under weak supervision is complicated due to the difficu
 ![DAM](https://github.com/snehashismajhi/Dissimilarity-Attention-Module-for-Weakly-supervised-Video-AnomalyDetection/blob/main/Dissimilarity%20Attention%20Module.jpg)
 
 # State-of-the-art Performance Comparision on UCF-Crime Dataset
-![SOTA](http://url/to/img.png)
+![SOTA](https://github.com/snehashismajhi/DAM-Anomaly-Detection/blob/main/state_of_the_art_avss_modified.png)
