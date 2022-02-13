@@ -9,3 +9,5 @@ Video anomaly detection under weak supervision is complicated due to the difficu
 
 # State-of-the-art Performance Comparision on UCF-Crime Dataset
 ![SOTA](https://github.com/snehashismajhi/DAM-Anomaly-Detection/blob/main/state_of_the_art_avss_modified.png)
+
+@INPROCEEDINGS{9663810,  author={Majhi, Snehashis and Das, Srijan and Brémond, François},  booktitle={2021 17th IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS)},   title={DAM: Dissimilarity Attention Module for Weakly-supervised Video Anomaly Detection},   year={2021},  volume={},  number={},  pages={1-8},  doi={10.1109/AVSS52988.2021.9663810}}
