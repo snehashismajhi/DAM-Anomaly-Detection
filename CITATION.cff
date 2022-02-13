@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+authors:
+- family-names: "Majhi"
+  given-names: "Snehashis"
+title: "DAM-Anomaly-Detection"
+version: 1.0.0
+date-released: 2022-02-13
+url: "https://github.com/snehashismajhi/DAM-Anomaly-Detection"
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: "Majhi"
+    given-names: "Snehashis"
+  - family-names: "Das"
+    given-names: "Srijan"
+  - family-names: "Brémond"
+    given-names: "François"
+  doi: "10.1109/AVSS52988.2021.9663810"
+  Conference: "2021 17th IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS)"
+  title: "DAM: Dissimilarity Attention Module for Weakly-supervised Video Anomaly Detection"
+  year: 2021
