@@ -69,7 +69,7 @@ def DAM_Cross_Covariance(lam3,n_neuron):
     detection_output = Dense(1, init='glorot_normal', W_regularizer=l2(0.001),name='Detection_part', activation='sigmoid')(d1)
     Detection_attn_multiply = keras.layers.multiply([detection_output,temporal_attn],name='Weighted_Detection_part')
     Detection_attn_add = keras.layers.add([detection_output, Detection_attn_multiply])
-    MIL = Model(inputs=[model_RGB.input,temporal_RGB_1.input, temporal_RGB_2.input], outputs=[Detection_attn_add])
+    MIL = Model(inputs=[model_RGB.input, input_RGB_1.input, input_RGB_2.input], outputs=[Detection_attn_add])
     return MIL
 
 
@@ -98,7 +98,7 @@ def DAM_Manhattan(lam3,n_neuron):
     detection_output = Dense(1, init='glorot_normal', W_regularizer=l2(0.001),name='Detection_part', activation='sigmoid')(d1)
     Detection_attn_multiply = keras.layers.multiply([detection_output,temporal_attn],name='Weighted_Detection_part')
     Detection_attn_add = keras.layers.add([detection_output, Detection_attn_multiply])
-    MIL = Model(inputs=[model_RGB.input,temporal_RGB_1.input, temporal_RGB_2.input], outputs=[Detection_attn_add])
+    MIL = Model(inputs=[model_RGB.input, input_RGB_1.input, input_RGB_2.input], outputs=[Detection_attn_add])
     return MIL
 
 
